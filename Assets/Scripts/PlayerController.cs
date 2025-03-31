@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float xRange = 15.0f;
 
+    public GameObject projectilePrefab;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,6 +25,10 @@ public class PlayerController : MonoBehaviour
         if(math.abs(transform.position.x) > xRange) {
             // the tutorial is bad and inefficient so i took it into my own hands
             transform.position = new Vector3(xRange * math.sign(transform.position.x), transform.position.y, transform.position.z);
+        }
+
+        if(Input.GetKeyDown(KeyCode.E)) {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }

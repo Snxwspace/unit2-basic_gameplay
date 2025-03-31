@@ -637,6 +637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   xRange: 15
+  projectilePrefab: {fileID: 5329371971243850317, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
 --- !u!1001 &945282914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -874,7 +875,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1943939408
+--- !u!1001 &8418309137263761593
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -882,71 +883,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 126446, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_Name
-      value: Food_Organic_Apple_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+    - target: {fileID: 4606189394838774349, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 452110, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
+    - target: {fileID: 5329371971243850317, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
+      propertyPath: m_Name
+      value: Food_Organic_Apple_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f24d4a2f719cc6d47b7560a5753eb623, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -958,4 +943,4 @@ SceneRoots:
   - {fileID: 945282914}
   - {fileID: 814855135}
   - {fileID: 808159502}
-  - {fileID: 1943939408}
+  - {fileID: 8418309137263761593}
