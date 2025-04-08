@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
-    private float spawnRangeX = 20;
+    private float spawnRangeX = 15;
     private float spawnPosZ = 29;
 
     private float startDelay = 1.5f;
